@@ -70,11 +70,11 @@ using Leetcode_2023;
 //TreeNode l8 = new TreeNode(8, l4, l5);
 //TreeNode l9 = new TreeNode(6, l7, l8);
 
-TreeNode l1 = new TreeNode(15, null, null);
-TreeNode l2 = new TreeNode(7, null, null);
-TreeNode l3 = new TreeNode(9, null, null);
-TreeNode l4 = new TreeNode(20, l1, l2);
-TreeNode l5 = new TreeNode(3, l3, l4);
+//TreeNode l1 = new TreeNode(15, null, null);
+//TreeNode l2 = new TreeNode(7, null, null);
+//TreeNode l3 = new TreeNode(9, null, null);
+//TreeNode l4 = new TreeNode(20, l1, l2);
+//TreeNode l5 = new TreeNode(3, l3, l4);
 
 
 
@@ -82,5 +82,30 @@ TreeNode l5 = new TreeNode(3, l3, l4);
 //LT_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree a = new LT_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree();
 
 //Console.WriteLine(a.LowestCommonAncestor(l12,l10,l11).val);
-LT_102_Binary_Tree_Level_Order_Traversal a = new LT_102_Binary_Tree_Level_Order_Traversal();
-Console.WriteLine(a.LevelOrder(l5));
+//LT_102_Binary_Tree_Level_Order_Traversal a = new LT_102_Binary_Tree_Level_Order_Traversal();
+//Console.WriteLine(a.LevelOrder(l5));
+
+LT_211_Design_Add_and_Search_Words_Data_Structure.WordDictionary a = new LT_211_Design_Add_and_Search_Words_Data_Structure.WordDictionary();
+//a.AddWord("at");
+//a.AddWord("and");
+//a.AddWord("an");
+//a.AddWord("add");
+//Console.WriteLine(a.Search("a"));
+//Console.WriteLine(a.Search(".at"));
+//a.AddWord("bat");
+//Console.WriteLine(a.Search(".at"));
+//Console.WriteLine(a.Search("an."));
+//Console.WriteLine(a.Search("a.d."));
+//Console.WriteLine(a.Search("b."));
+//Console.WriteLine(a.Search("a.d"));
+//Console.WriteLine(a.Search("."));
+
+
+a.AddWord("bad");
+a.AddWord("dad");
+a.AddWord("mad");
+
+Console.WriteLine(a.Search("pad"));
+Console.WriteLine(a.Search("bad"));
+Console.WriteLine(a.Search(".ad"));
+Console.WriteLine(a.Search("b.."));
