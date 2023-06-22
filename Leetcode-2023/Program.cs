@@ -114,11 +114,21 @@ using Leetcode_2023;
 //int[] a1 = {2,3,6,7 };
 //Console.WriteLine(string.Join(", ", a.CombinationSum(a1, 7)));
 
-LT_79_Word_Search a = new LT_79_Word_Search();
-char[][] board = new char[][]
+//LT_79_Word_Search a = new LT_79_Word_Search();
+//char[][] board = new char[][]
+//{
+//new char[] { 'A', 'B', 'C', 'E' },
+//new char[] { 'S', 'F', 'C', 'S' },
+//new char[] { 'A', 'D', 'E', 'E' }
+//};
+//Console.WriteLine(a.Exist(board, "SEE"));
+
+LT_200_Number_of_Islands a = new LT_200_Number_of_Islands();
+char[][] island = new char[][]
 {
-new char[] { 'A', 'B', 'C', 'E' },
-new char[] { 'S', 'F', 'C', 'S' },
-new char[] { 'A', 'D', 'E', 'E' }
+    new char[]{'1','1','1','1','0' },
+    new char[]{'1','1','0','1','0' },
+    new char[]{'1','1','0','0','0' },
+    new char[]{'0','0','0','0','0' }
 };
-Console.WriteLine(a.Exist(board, "SEE"));
+Console.WriteLine(a.NumIslands(island)); ;
