@@ -85,7 +85,7 @@ using Leetcode_2023;
 //LT_102_Binary_Tree_Level_Order_Traversal a = new LT_102_Binary_Tree_Level_Order_Traversal();
 //Console.WriteLine(a.LevelOrder(l5));
 
-LT_211_Design_Add_and_Search_Words_Data_Structure.WordDictionary a = new LT_211_Design_Add_and_Search_Words_Data_Structure.WordDictionary();
+//LT_211_Design_Add_and_Search_Words_Data_Structure.WordDictionary a = new LT_211_Design_Add_and_Search_Words_Data_Structure.WordDictionary();
 //a.AddWord("at");
 //a.AddWord("and");
 //a.AddWord("an");
@@ -101,11 +101,24 @@ LT_211_Design_Add_and_Search_Words_Data_Structure.WordDictionary a = new LT_211_
 //Console.WriteLine(a.Search("."));
 
 
-a.AddWord("bad");
-a.AddWord("dad");
-a.AddWord("mad");
+//a.AddWord("bad");
+//a.AddWord("dad");
+//a.AddWord("mad");
 
-Console.WriteLine(a.Search("pad"));
-Console.WriteLine(a.Search("bad"));
-Console.WriteLine(a.Search(".ad"));
-Console.WriteLine(a.Search("b.."));
+//Console.WriteLine(a.Search("pad"));
+//Console.WriteLine(a.Search("bad"));
+//Console.WriteLine(a.Search(".ad"));
+//Console.WriteLine(a.Search("b.."));
+
+//LT_39_Combination_Sum a = new LT_39_Combination_Sum();
+//int[] a1 = {2,3,6,7 };
+//Console.WriteLine(string.Join(", ", a.CombinationSum(a1, 7)));
+
+LT_79_Word_Search a = new LT_79_Word_Search();
+char[][] board = new char[][]
+{
+new char[] { 'A', 'B', 'C', 'E' },
+new char[] { 'S', 'F', 'C', 'S' },
+new char[] { 'A', 'D', 'E', 'E' }
+};
+Console.WriteLine(a.Exist(board, "SEE"));
