@@ -123,12 +123,18 @@ using Leetcode_2023;
 //};
 //Console.WriteLine(a.Exist(board, "SEE"));
 
-LT_200_Number_of_Islands a = new LT_200_Number_of_Islands();
-char[][] island = new char[][]
-{
-    new char[]{'1','1','1','1','0' },
-    new char[]{'1','1','0','1','0' },
-    new char[]{'1','1','0','0','0' },
-    new char[]{'0','0','0','0','0' }
-};
-Console.WriteLine(a.NumIslands(island)); ;
+//LT_200_Number_of_Islands a = new LT_200_Number_of_Islands();
+//char[][] island = new char[][]
+//{
+//    new char[]{'1','1','1','1','0' },
+//    new char[]{'1','1','0','1','0' },
+//    new char[]{'1','1','0','0','0' },
+//    new char[]{'0','0','0','0','0' }
+//};
+//Console.WriteLine(a.NumIslands(island)); ;
+
+//LT_70_Climbing_Stairs a = new LT_70_Climbing_Stairs();
+//Console.WriteLine(a.ClimbStairs(3));
+
+LT_2259_Remove_Digit_From_Number_to_Maximize_Result a = new LT_2259_Remove_Digit_From_Number_to_Maximize_Result();
+Console.WriteLine(a.RemoveDigit("551", '9'));
