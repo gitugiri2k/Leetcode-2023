@@ -136,5 +136,7 @@ using Leetcode_2023;
 //LT_70_Climbing_Stairs a = new LT_70_Climbing_Stairs();
 //Console.WriteLine(a.ClimbStairs(3));
 
-LT_2259_Remove_Digit_From_Number_to_Maximize_Result a = new LT_2259_Remove_Digit_From_Number_to_Maximize_Result();
-Console.WriteLine(a.RemoveDigit("551", '9'));
+//LT_2259_Remove_Digit_From_Number_to_Maximize_Result a = new LT_2259_Remove_Digit_From_Number_to_Maximize_Result();
+//Console.WriteLine(a.RemoveDigit("551", '9'));
+LT_2405_Optimal_Partition_of_String a = new LT_2405_Optimal_Partition_of_String();
+a.PartitionString("abacaba");
