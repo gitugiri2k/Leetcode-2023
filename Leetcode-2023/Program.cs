@@ -141,5 +141,11 @@ using Leetcode_2023;
 //LT_1492_The_kth_Factor_of_n a = new LT_1492_The_kth_Factor_of_n();
 //Console.WriteLine(a.KthFactor(4,4));
 
-LT_191_Number_of_1_Bits a = new LT_191_Number_of_1_Bits();
-a.CountBits(5);
+//LT_191_Number_of_1_Bits a = new LT_191_Number_of_1_Bits();
+//a.CountBits(5);
+
+//LT_190_Reverse_Bits a = new LT_190_Reverse_Bits();
+//a.reverseBits(43261596);
+
+LT_268_Missing_Number a = new LT_268_Missing_Number();
+Console.WriteLine(a.MissingNumber(new int[] { 9, 6, 4, 2, 3, 5, 7, 0, 1 }));
