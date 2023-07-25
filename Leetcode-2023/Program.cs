@@ -138,5 +138,5 @@ using Leetcode_2023;
 
 //LT_2259_Remove_Digit_From_Number_to_Maximize_Result a = new LT_2259_Remove_Digit_From_Number_to_Maximize_Result();
 //Console.WriteLine(a.RemoveDigit("551", '9'));
-LT_2405_Optimal_Partition_of_String a = new LT_2405_Optimal_Partition_of_String();
-a.PartitionString("abacaba");
+LT_1492_The_kth_Factor_of_n a = new LT_1492_The_kth_Factor_of_n();
+Console.WriteLine(a.KthFactor(4,4));
