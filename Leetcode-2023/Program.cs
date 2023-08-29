@@ -147,5 +147,8 @@ using Leetcode_2023;
 //LT_190_Reverse_Bits a = new LT_190_Reverse_Bits();
 //a.reverseBits(43261596);
 
-LT_268_Missing_Number a = new LT_268_Missing_Number();
-Console.WriteLine(a.MissingNumber(new int[] { 9, 6, 4, 2, 3, 5, 7, 0, 1 }));
+//LT_268_Missing_Number a = new LT_268_Missing_Number();
+//Console.WriteLine(a.MissingNumber(new int[] { 9, 6, 4, 2, 3, 5, 7, 0, 1 }));
+
+LT_4_Median_of_Two_Sorted_Arrays a = new LT_4_Median_of_Two_Sorted_Arrays();
+a.FindMedianSortedArrays(new int[] { 1, 2 }, new int[] { 3, 4 });
